@@ -1,0 +1,44 @@
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  color: #754F44;
+}
+
+.headings {
+  font-family: 'Archivo Black', sans-serif;
+  color: #754F44;
+}
+
+div {
+  background:  #E1CE7A;
+  color: #754F44;
+  min-width: 100%;
+  margin-left: -5px;
+  margin-top: -15px;
+}
+
+ul {
+  list-style: none;
+  min-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #754F44;
+}
+
+li {
+  background: #FBFFB9;
+  display: inline-block;
+  margin-left: 13%;
+  margin-top: 9px;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #754F44;
+}
+
+footer{
+  color: #754F44;
+  text-align: center;
+  margin-top: 85%;
+}
