@@ -42,3 +42,10 @@ footer{
   text-align: center;
   margin-top: 85%;
 }
+
+/***About page styling***/
+
+.about {
+  text-align: center;
+  text-transform: uppercase;
+}
