@@ -46,3 +46,18 @@ footer{
   text-align: center;
   margin-top: 85%;
 }
+
+/***About page styling***/
+
+.about {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Archivo Black', sans-serif;
+  color: #754F44;
+}
+
+.about-text {
+  text-align: left;
+  margin: 5px;
+  padding: 4px 10px;
+}
