@@ -2,6 +2,9 @@ body {
   background: white;
   font-family: 'Roboto', sans-serif;
   color: #754F44;
+  height: 100%; 
+  padding: 0; 
+  margin: 0; 
 }
 
 .headings {
@@ -15,7 +18,8 @@ body {
   min-width: 100%;
   margin-left: -5px;
   margin-top: -15px;
-}
+ } 
+
 div {
   background:  #FFFFFF;
   color: #EC7357;
@@ -41,20 +45,16 @@ li {
   border: 1px solid #754F44;
 }
 
-footer{
-  color: #754F44;
-  text-align: center;
-  margin-top: 85%;
-}
 
-.home-body { 
+/* home page css */
+.home-page { 
   font-family: 'Roboto', sans-serif;
   height: 100%; 
   padding: 0; 
   margin: 0; 
 }
 
-.home-div { 
+.home-page-div { 
   z-index: 8;
   width: 50%; 
   height: 50%; 
@@ -68,6 +68,7 @@ footer{
   top: -140px;
   right: -400px;
   z-index: 20;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 1.5em;
   color: #754f44;
   background: #FBFFB9;
@@ -81,6 +82,7 @@ footer{
   top: -140px;
   right: -400px;
   z-index: 20;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   color: #754f44;
   background: #FBFFB9;
@@ -91,8 +93,9 @@ footer{
   display:inline-block;
   padding: 0 3px;
   top: -140px;
-  left: 100px;
+  left: 75px;
   z-index: 20;
+  font-family: 'Archivo Black', sans-serif;
   font-size: 1.5em;
   color: #754f44;
   background: #FBFFB9;
@@ -105,8 +108,9 @@ footer{
   display: block;
   width: 45%;
   top: -140px;
-  left: 100px;
+  left: 75px;
   z-index: 20;
+  font-family: 'Roboto', sans-serif;
   font-size: 1em;
   color: #754f44;
   background: #FBFFB9;
@@ -117,7 +121,7 @@ footer{
   background: #DDD; 
 }
 
-div:hover {
+.home-page-div:hover {
   outline: 4px solid #EC7357;
   outline-offset: -4px;
 }
@@ -158,7 +162,6 @@ div:hover {
 }
 
 .animation {
-  font-family: 'Archivo Black', sans-serif;
   color: black;
   z-index: 9;
   vertical-align: middle;
@@ -168,16 +171,24 @@ div:hover {
   left: 38%;
   position:;
   border-radius: 100%;
-  border: 4px solid #FBFFB9;
+  box-shadow: 0px 0px 50px #FBFFB9;
+  border: 2px solid #FBFFB9;
   width: 20em;
   height: 20em;
 }
 
-h2 {
+.animation-label {
   z-index: 1000;
-  color: #FBFFB9;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 130px;
+  color: rgba(251, 255, 185, 0.7);
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 19%;
+  left: 38.5%;
 }
 
+.home-page-footer {
+  position: absolute;
+  top: 94%;
+  left: 60%;
+}
