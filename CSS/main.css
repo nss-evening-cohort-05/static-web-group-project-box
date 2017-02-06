@@ -61,3 +61,22 @@ footer{
   margin: 5px;
   padding: 4px 10px;
 }
+
+/***Product List Page***/
+
+article {
+  display: inline-flex;
+  border: 2px solid #754F44;
+  width: 30%;
+  margin: 10px 5px 0 25px;
+  padding: 0;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+article ul {
+  text-align: left;
+}

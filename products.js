@@ -1,55 +1,55 @@
 // 1. Create an array to hold your products.
 var product1 = {
-	name: "small",
+	name: "Small Box",
 	description: "square",
 	price: "1.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product2 = {
-	name: "small",
+	name: "Small Box",
 	description: "square",
 	price: "2.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product3 = {
-	name: "large",
+	name: "Large Box",
 	description: "square",
 	price: "1.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product4 = {
-	name: "medium",
+	name: "Medium Box",
 	description: "square",
 	price: "1.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product5 = {
-	name: "small",
+	name: "Small Box",
 	description: "rectangle",
 	price: "1.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product6 = {
-	name: "small",
+	name: "Small Box",
 	description: "square",
 	price: "3.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product7 = {
-	name: "large",
+	name: "Large Box",
 	description: "rectangle",
 	price: "1.00",
 	url: "http://placeimg.com/400/400/any"
 }
 
 var product8 = {
-	name: "medium",
+	name: "Medium Box",
 	description: "lidded",
 	price: "3.00",
 	url: "http://placeimg.com/400/400/any"
@@ -66,14 +66,15 @@ var productList = [product1, product2, product3, product4, product5, product6, p
 
 var productElement = document.getElementById('list');
 var currentProduct = productElement.innerHTML;
-currentProduct += "<div>";
+//currentProduct += "<article>";
 
 
 for (var i = 0; i < productList.length; i++) {
-    currentProduct += "<img src="+productList[i].url+">";currentProduct += "<p>Name: " + productList[i].name +"</p>";
+    currentProduct += "<article>" + "<section>" + "<div class='productList'>" + "<img src=" + productList[i].url +">";
+    currentProduct += "<ul><p>Item Name: " + productList[i].name +"</p>";
     currentProduct += "<p>Description: " + productList[i].description +"</p>";
-    currentProduct += "<p>Price: " + productList[i].price +"</p>";
+    currentProduct += "<p>Price: " + productList[i].price +"</p>" +"</ul></div>" + "</section>" + "</article>";
     
 }
-currentProduct += "</div>";
+//currentProduct += "</article>";
 productElement.innerHTML = currentProduct;
